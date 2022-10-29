@@ -331,14 +331,6 @@ button {
   align-items: center;
   border-bottom: 1px solid #ececec;
 }
-.no-bottom-padding {
-  padding-bottom: 0;
-}
-
-/* .portfolio-buttons {
-  display: flex;
-  justify-content: center;
-} */
 
 .portfolio-buttons li {
   /* max-width: 572px;
