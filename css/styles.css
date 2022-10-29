@@ -155,7 +155,7 @@ button {
   padding-bottom: 94px;
 }
 
-.container-service-description-list {
+.service-description-list {
   /* width: calc((100%-90/4)); */
   display: flex;
   margin: 0 auto;
