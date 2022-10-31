@@ -22,34 +22,27 @@ body {
 
 /* BEZ FLEXA! */
 .top-navigation-bar {
-  height: 80px;
   border-bottom: 1px solid #ececec;
 }
 
 .sub-container-top-nav-bar {
+  height: 80px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   
-  /* Jak wysrodkowac wszystkie elementy w pionie jedna komenda w FLEX tak aby zachowac uklad z Figmy? align nie robia roboty. 
-  Zaczelam wysrodkowywac marginesami poszczegolnych elementow headera (Logo, menu, mail/tel) dodajac odleglosci jak w FIGMIE, ale elementy chyba nie wychodzą rowno na jednej osi.*/
+  /* Jak wysrodkowac wszystkie elementy w pionie jedna komenda w FLEX tak aby zachowac uklad z Figmy? align nie robia roboty. Zaczelam wysrodkowywac marginesami poszczegolnych elementow headera (Logo, menu, mail/tel) dodajac marginesy jak w FIGMIE, ale elementy chyba nie wychodzą rowno na jednej osi.*/
 }
 
 /* wrapper dla logo i menu */
 .header-wrapper {
   display: flex;
-  align-items: center;
-  /* margin-top:30px; 
-  Pytanie  - dlaczego po wstawieniu margin-TOP skraca sie dolny margines - linia z dolu podnosi sie do gory? */
-}
-
-/* .header-wrapper:first-child {margin-right: 93px;} 
-DLACZEGO TAKIE ZAPIS NIE DZIALA? */
+  align-items: center;}
+  
 
 .menu-wrapper {
   margin-left: 93px;
-  margin-top: 32px;
 }
 
 .logo-header {
@@ -60,8 +53,6 @@ DLACZEGO TAKIE ZAPIS NIE DZIALA? */
   letter-spacing: 0.03em;
   text-decoration: none;
   color: black;
-  width: 145px;
-  margin-top:24px;
 }
 
 .logo-blue-color {
@@ -79,6 +70,8 @@ DLACZEGO TAKIE ZAPIS NIE DZIALA? */
   margin-left: 46px;
 }
 
+.menu li:first-child {margin-left: 0;}
+
 .ul-list {
   list-style: none;
 }
@@ -94,7 +87,6 @@ DLACZEGO TAKIE ZAPIS NIE DZIALA? */
 
 .contact-list-header {
   display: flex;
-  margin-top: 32px;
 }
 .contact-list-header a {
   text-decoration: none;
@@ -103,7 +95,7 @@ DLACZEGO TAKIE ZAPIS NIE DZIALA? */
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  padding-inline: 50px;
+  padding-left: 50px;
 }
 .contact-list-header a:hover {
   color: #2196f3;
