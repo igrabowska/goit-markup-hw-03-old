@@ -29,6 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 15px;
 }
 
 /* wrapper dla logo i menu */
@@ -275,6 +276,8 @@ button {
   padding-top: 60px;
 }
 
+.sub-container-footer{padding: 0 15px;}
+
 .logo-footer {
   font-family: Raleway;
   font-size: 26px;
@@ -311,7 +314,6 @@ button {
   font-style: normal;
   color: var(--main-background);
   padding-top: 20px;
-  /* padding-bottom: 6px; */
   line-height: 1.7;
   letter-spacing: 00.03em;
 }
@@ -321,7 +323,6 @@ button {
   color: var(--main-background);
   line-height: 1.7;
   letter-spacing: 00.03em;
-  /* padding-bottom: 6px; */
 }
 
 .ph-number-footer {
@@ -370,16 +371,12 @@ button:hover {
   border: var(--brand-color);
 } */
 
-.portfolio-buttons li {
-  /* max-width: 572px;
-  height: 74px; */
-  padding-right: 8px;
-}
 
 .all-projects {
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
+  justify-content: center;
   /* flex-basis: calc((100% - 60px)/3); */
   gap: 30px;
 }
