@@ -1,8 +1,6 @@
 body {
   font-family: Roboto;
   color: var(--text-color);
-  width: 1600px;
-  height: 2349px;
 }
 *,
 *::before,
@@ -31,15 +29,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-  /* Jak wysrodkowac wszystkie elementy w pionie jedna komenda w FLEX tak aby zachowac uklad z Figmy? align nie robia roboty. Zaczelam wysrodkowywac marginesami poszczegolnych elementow headera (Logo, menu, mail/tel) dodajac marginesy jak w FIGMIE, ale elementy chyba nie wychodzą rowno na jednej osi.*/
 }
 
 /* wrapper dla logo i menu */
 .header-wrapper {
   display: flex;
-  align-items: center;}
-  
+  align-items: center;}  
 
 .menu-wrapper {
   margin-left: 93px;
@@ -102,10 +97,11 @@ body {
 }
 
 .section-hero-baner {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
   height: 600px;
   background-color: var(--baner-background-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .container {
@@ -130,7 +126,6 @@ body {
   text-align: center;
   margin: auto;
   margin-bottom: 30px;
-  padding-top: 94px;
 }
 
 .baner-button {
@@ -307,7 +302,7 @@ button {
 
 .container-footer li {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 9px;
   width: 100%;
   max-width: 1200px;
 }
